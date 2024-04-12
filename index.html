@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App🌡</title>
+    <script src="https://kit.fontawesome.com/0415fb2d21.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="main-content">
+    <header>
+    <div class="search">
+    <input type="text" placeholder="Enter your location"  spellcheck="true" class="inOne">
+    <button class="oneButton"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+    <div class="error">
+        <p>Enter a valid city</p>
+    </div>
+    </header>
+    <section class="Weather">
+            <img src="./images/rain.png" alt="" class="weather-icon">  
+         <div class="info">     
+        <h1 class="condi">Rainy</h1>
+        <h2 class="region">New York</h2>
+        <h3 class="temp">23<span>&#176;</span> C</h3>
+         </div>
+    </section>
+    <footer class="imps">
+      <div class="day-time">
+       <h3 class="day">Monday</h3>
+        
+         
+       
+      </div>
+      <hr>
+    <div class="weather-details">
+    <div class="humidity">
+        <i class="fa-solid fa-droplet"></i>
+        <div class="text">
+            <span id="humidity">45%</span>
+            <p>Humidity</p>
+        </div>
+    </div>
+        
+        <div class="Wind">
+        <i class="fa-solid fa-wind"></i>
+         <div class="text">
+            <span id="Wind-speed">12 Km/Hr</span>
+            <p>Wind Speed</p>
+         </div>
+         </div>
+    </div>
+
+    </footer>
+</div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
